@@ -1,0 +1,112 @@
+.career{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.career_head{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: "Playfair Display", serif;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.career_text{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.career_text p{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.career_btn{
+    padding: 3% 12%;
+    background-color: #f18624;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0 4px 12px -10px #1f1e1e;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.career_btn:hover{
+    background-color: #c77222;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 740px) {
+    .career_text p {
+        font-size: 1.3rem;
+    }
+    .career_head{
+        font-size: 2rem;
+    }
+    .career_btn{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .career_text p {
+        font-size: 1.2rem;
+    }
+    .career_btn{
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+
+    }
+}
+@media (max-width: 570px) {
+    .career_text p {
+        font-size: 1.1rem;
+    }
+    .career_head{
+        font-size: 1.6rem;
+    }
+    .career_btn{
+        font-size: 1.1rem;
+        margin-top: 2.2rem;
+    }
+}
+@media (max-width: 505px) {
+    .career_text p {
+        font-size: 1.1rem;
+    }
+    .career_btn{
+        font-size: 1.1rem;
+    }
+
+}
+@media (max-width: 477px) {
+    .career_text p {
+        font-size: 1.0rem;
+    }
+    .career_head{
+        font-size: 1.6rem;
+    }
+
+}
+@media (max-width: 426px) {
+    .career_text p {
+        font-size: 0.95rem;
+    }
+    .career_head{
+        font-size: 1.3rem;
+    }
+    .career_btn{
+        font-size: 1.1rem;
+    }
+}

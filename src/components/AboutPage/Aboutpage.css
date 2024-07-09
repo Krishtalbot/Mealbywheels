@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:wght@100..900&display=swap');
+
+
+.about{
+    background-image: url(../../assets/rectangle.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all_box{
+    width: 85%;
+    height: 85%;
+    background-color: white;
+    border-radius: 1.5rem;
+    
+}
+
+.about_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    padding-left: 0rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+}
+
+.about_content img{
+    width: 28rem;
+    height: 28rem;
+    margin-right: 5rem;
+}
+
+.about_text{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: -1.5rem;
+}
+
+.order_btn{
+    padding:3% 10%;
+    background-color: #f18624;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0 4px 12px -10px #1f1e1e;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.order_btn:hover{
+    background-color: #c77222;
+    cursor: pointer;
+    
+}
